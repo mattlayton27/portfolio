@@ -1,0 +1,355 @@
+/* 
+Style sheet for screened devices
+
+    Created on : Mar 4, 2015, 10:42:33 AM
+    Author     : Matthew
+*/
+
+@import "normalize.min.css";
+
+/*******Entire html document*******/
+*{
+    box-sizing: border-box; 
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #087b10;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+body>div{
+    margin: auto;
+    background-color: #ffffff;
+    width: 80%;
+    height: 100%;
+}
+
+/*******Header*******/
+header{
+    background-color: #ffffff;
+}
+h1{
+    display: none;
+}
+header img{
+    min-width: 60%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5%;
+}
+
+/*******Navigation*******/
+nav{
+    background-color: #4b4b4b;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-left: -25px;
+}
+nav a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+nav a:hover{
+    color: #059a0f;
+}
+
+/*******Main*******/
+main img{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+main{
+    margin-bottom: 25px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+h2{
+    margin-bottom: 10px;
+}
+#captcha{
+    width: 100px;
+}
+.plan{
+    width: 30%;
+}
+.admin h2 {
+    font-size: 42px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+.column{
+    display: flex;
+    flex-flow: row;
+}
+.columns {
+    flex-flow: column;
+    margin-right: 80px;
+}
+.admin h3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.admin tr:nth-child(odd) {
+    background-color: lightgreen;
+}
+.admin td {
+    border-top-style: solid;
+    border-width: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+.admin ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    margin-left: -40px;
+}
+.admin li {
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+.admin .add {
+    margin-top: 50px;
+}
+.admin a {
+    text-decoration: none;
+}
+#activity {
+    margin-left: 24px;
+}
+#equipment_name {
+    margin-left: 38px;
+}
+#price {
+    margin-left: 3px;
+}
+#available {
+    margin-left: 13px;
+}
+#add_equipment {
+    margin-left: 81px;
+}
+label, select, input {
+    margin-top: 10px;
+}
+.admin .deleteedit{
+    margin: 0px;
+    padding: 0px;
+}
+.error {
+    color: red;
+}
+.special ul {
+    line-height: 12px;
+}
+main a:visited {
+    color: blue;
+}
+
+.rowwrap {
+    display: flex;
+    flex-flow: row wrap;
+}
+.rowwrap ul {
+    margin-right: 40px;
+}
+.rowwrap li {
+    margin-bottom: 20px;
+}
+.rowwrap img {
+    height: 150px;
+    width: 250px;
+}
+/*******Aside******/
+aside{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+aside ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+aside a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+aside a:hover{
+    text-decoration: underline;
+}
+
+/*******Footer*******/
+footer{
+    background-color: #4b4b4b;
+    margin-top: 15px;
+    text-align: center;
+    margin: auto;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer a{
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*******Responsiveness*******/
+@media screen and (min-width: 1700px){
+    body>div{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 768px){
+    body>div{
+        width: 100%;
+    }
+    .column{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .columns {
+        flex-flow: row;
+        margin-right: 80px;
+    }
+    .admin h2 {
+        font-size: 42px;
+    }
+    .admin h3 {
+        margin-top: 35px;
+        font-size: 24px;
+    }
+    .admin ul {
+        display: flex;
+        flex-flow: row;
+    }
+    .admin li {
+        margin-right: 85px;
+        padding: 0px;
+    }
+    .rowwrap {
+        display: flex;
+        flex-flow: column;
+    }
+    .rowwrap ul {
+        display: flex;
+        flex-flow: column;
+        margin: 0px;
+        margin-bottom: 35px;
+    }
+    .special li{
+        width: 100%;
+        margin-bottom: 10px
+    }
+}
+@media screen and (max-width: 481px){
+    body>div{
+        width: 100%;
+        height: 100%;
+    }
+    header{
+        margin-bottom: 2%;
+    }
+    nav{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    nav>div{
+        width: 100%;
+    }
+    nav ul{
+        margin-left: -30px;
+    }
+    nav a{
+        font-size: 6vw;
+        padding: 0;
+    }
+    main img{
+        margin: 0;
+    }
+    main p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .plan{
+        width: 100%;
+        max-width: 100%;
+    }
+    footer{
+        font-size: 4vw;
+        margin-bottom: 10em;
+    }
+    .admin h2 {
+        font-size: 30px;
+    }
+    .admin h3 {
+        margin-top: 35px;
+        font-size: 18px;
+    }
+    #activity {
+        margin-left: 0px;
+        display: block;
+    }
+    #equipment_name {
+        margin-left: 0px;
+        display: block;
+    }
+    #price {
+        margin-left: 0px;
+        display: block;
+    }
+    #available {
+        margin-left: 0px;
+        display: block;
+    }
+    #add_equipment {
+        margin-left: 0px;
+        display: block;
+    }
+    table {
+        overflow-x: scroll;
+        display: block;
+    }
+    .special{
+        margin-left: 0px;
+    }
+    .special h3 {
+        margin-bottom: 25px;
+    }
+    .special ul {
+        line-height: 24px;
+    }
+    .rowwrap img {
+        height: 100px;
+    }
+}

@@ -1,0 +1,53 @@
+/* 
+Style sheet for site plan demo
+    Created on : Mar 6, 2015, 10:42:10 AM
+    Author     : Matthew
+*/
+
+//Imports normalize.css
+
+@import "normalize.css";
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-size: 1em;
+    color: #555555;
+    background-color: #eeeeee;
+    margin: 0;
+    line-height: 1; //line height is a ratio (100%)
+}
+
+//General Styles
+ol,ul{
+    list-style: none;
+}
+blockquote,q{
+    quotes: none;
+}
+
+//Change appearance of links
+a:link,a:visited,a:active{
+    color: #333333;
+    text-decoration: none;
+    outline: none;
+}
+a:hover,a:focus{
+    text-decoration: none;
+    color: #34742d;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-weight: normal;
+    letter-spacing: -1px;
+}

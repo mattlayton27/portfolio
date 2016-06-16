@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <style>
+  /********** Body **********/
+    body {
+      font-family: arial;
+      width: 90%;
+    }
+
+  /********* Main Title **********/
+    #largeFont {
+      width: 100%;
+      margin-top: -10px;
+      font-size: 63px;
+      color: white;
+      background-color: #013CA6;
+    }
+    #smallFont {
+      margin-top: -45px;
+      padding-bottom: 10px;
+      font-size: 25px;
+      background-color: #013CA6;
+      color: white;
+    }
+    #weather {
+      margin-top: -17px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 18px;
+      background-color: #FAD000;
+      color: white;
+    }
+    #student {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: -20px;
+      background-color: #013CA6;
+      color: white;
+      font-size: 18px;
+    }
+    button {
+      font-size: 12px;
+    }
+
+    /********** Swipe **********/
+    #container {
+      position: absolute;
+      width: 90%;
+      height: 400px;
+      overflow: hidden;
+      margin-top: -33px;
+    }
+    #sliderContainer {
+      position: absolute;
+      overflow-x: hidden;
+      transition: 1s;
+    }
+    .slider {
+      margin-top: 200px;
+      overflow-x: hidden;
+      display: table-cell;
+    }
+    .slider h1 {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 24px;
+      color: white;
+    }
+    .slider ul {
+      margin-top: -16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 0px;
+    }
+    .slider li {
+      line-height: 24px;
+    }
+    #stepOne h1, #stepThree h1, #stepFive h1 {
+      background-color: #FAD000;
+    }
+    #stepTwo h1, #stepFour h1, #stepSix h1 {
+      background-color: #013CA6;
+    }
+    #checkMark {
+      position: fixed;
+      width: 50px;
+      right: 60px;
+      bottom: 95px;
+    }
+    #backButton {
+      position: fixed;
+      width: 50px;
+      left: 10;
+      bottom: 95px;
+    }
+    #change {
+      display: none;
+      background-color: lightgrey;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-top: -18px;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div id="title">
+    <h1 id="largeFont">Snowboard</h1>
+    <h1 id="smallFont">Instruction Helper</h1>
+    <p id="weather"></p>
+    <p id="student" onclick="revealChangeName()">Student Name: Matt Layton</p>
+    <div id="change">
+      <!-- <label>First Name: </label>
+      <input type="text" id="studentFirstName"><br>
+      <label>Last Name: </label>
+      <input type="text" id="studentLastName"> -->
+      <input type="text" id="newName">
+      <button onclick="changeName()" id="changeName">Change Student Name</button>
+    </div>
+  </div>
+  <div id="container">
+    <div id="sliderContainer">
+      <div class='slider' id="stepOne">
+        <h1>Setting Up The Lesson</h1>
+        <ul>
+          <li>Check to see if their boots are fitted right</li>
+          <li>Check if bindings are tight and not sliding</li>
+          <li>Strap one foot (left or right) into the binding</li>
+          <li>Toes over snowboard = Bindings too small</li>
+          <li>Bindings rotate = Screws are too loose</li>
+        </ul>
+        <iframe width="350" src="https://www.youtube.com/embed/WCFI3FH4jpc?rel=0" frameborder="0" allowfullscreen></iframe>
+        <img src="checkmark.png" id="checkMark" onclick="moveForward()">
+        <img src="Button-Back.png" id="backButton" onclick="moveBack()">
+      </div>
+        <div class='slider' id="stepTwo">
+          <h1>One Footed Drills</h1>
+          <ul>
+            <li>With one foot strapped in, teach skating</li>
+            <li>Once comfortable, teach stance</li>
+            <li>Push off 3 times then snowboard stance</li>
+            <li>Student falling = Weight on back foot</li>
+            <li>Student not moving = Eyes on ground</li>
+          </ul>
+          <iframe width="350" src="https://www.youtube.com/embed/07zuKudmnO8?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class='slider' id="stepThree">
+          <h1>Traversing</h1>
+          <ul>
+            <li>Traversing = Across the fall line</li>
+            <li>Make sure student is on one edge</li>
+            <li>Make a go to point for student</li>
+            <li>Make sure student keeps on on point</li>
+            <li>Student not moving = Weight front foot</li>
+          </ul>
+          <iframe width="350" src="https://www.youtube.com/embed/XgIZ6B7UyY8?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class='slider' id="stepFour">
+          <h1>J Turns</h1>
+          <ul>
+            <li>Make student make a J in the snow</li>
+            <li>Weight front foot to straightline</li>
+            <li>Count to three</li>
+            <li>Edge heel or toe side to stop</li>
+            <li>Student doesnt stop = no edge</li>
+          </ul>
+          <iframe width="350" src="https://www.youtube.com/embed/0e6gANCggJ4?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class='slider' id="stepFive">
+          <h1>Garlands</h1>
+          <ul>
+            <li>Visual: Garlands on a tree</li>
+            <li>Basic movements: Traverse stop & go</li>
+            <li>Weight front foot to go faster</li>
+            <li>Edge uphill to stop/slow down</li>
+            <li>Have student go faster each time</li>
+          </ul>
+          <iframe width="350" src="https://www.youtube.com/embed/PAF8LjLlNU4?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class='slider' id="stepSix">
+          <h1>Linking Turns</h1>
+          <ul>
+            <li>Student mastered previous steps</li>
+            <li>Heel edge to toe edge first</li>
+            <li>Toe edge to heel edge second</li>
+            <li>Student falls = Edge change too quick</li>
+            <li>Practice size, shape and speed of turns</li>
+          </ul>
+          <iframe width="400" src="https://www.youtube.com/embed/bX-5rpqaLd8?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <script>
+
+    // get the weather
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        var parsed = JSON.parse(xmlhttp.responseText);
+        var weather = parsed['list'][0]['weather'][0]['description'];
+        document.getElementById('weather').innerHTML = "Weather: " + weather;
+        if (weather == 'few clouds') {
+          document.getElementById('weather').style.backgroundColor = 'grey';
+        } else if (weather == 'clear sky') {
+          document.getElementById('weather').style.backgroundColor = 'aqua';
+        } else if (weather == 'light rain') {
+          document.getElementById('weather').style.backgroundColor = '#330099';
+        }
+      }
+    }
+    xmlhttp.open("GET", "http://api.openweathermap.org/data/2.5/forecast/city?id=5605242&APPID=c1815fef26a1523ac78b33bca72e947a", true);
+    xmlhttp.send();
+
+    // student object
+    function Student(firstName, lastName) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+
+      this.getFirstName = function() {
+        return this.firstName;
+      }
+      this.getLastName = function() {
+        return this.lastName;
+      }
+    }
+
+    // // student name
+    // var name = JSON.parse(localStorage.studentName);
+    // console.log(name);
+    // document.getElementById('student').innerHTML = 'Student Name (Tap to change): <br>' + name.getFirstName + " " + name.getLastName;
+
+    // student name
+    var name = localStorage.studentName;
+    document.getElementById('student').innerHTML = 'Student Name (Tap to change): ' + name;
+
+    // reveal name change
+    function revealChangeName() {
+      document.getElementById('change').style.display = 'block';
+      document.getElementById('change').style.transform = "rotateX(360deg)";
+      document.getElementById('change').style.transition = 'transform 4s';
+      document.getElementById('student').style.display = 'none';
+    }
+    //
+    // change student name
+    function changeName() {
+      var newStudentName = document.getElementById('newName').value;
+      localStorage.studentName = newStudentName;
+      document.getElementById('change').style.display = 'none';
+      document.getElementById('student').style.display = 'block';
+      document.getElementById('student').innerHTML = 'Student Name (Tap to change): ' + newStudentName;
+    }
+
+    // // change student name
+    // function changeName() {
+    //   var studentFirstName = document.getElementById('studentFirstName').value;
+    //   var studentLastName = document.getElementById('studentLastName').value;
+    //   var name = new Student(studentFirstName, studentLastName);
+    //   JSON.stringify(name);
+    //   localStorage.studentName = name;
+    //   console.log(name);
+    //   document.getElementById('change').style.display = 'none';
+    //   document.getElementById('student').style.display = 'block';
+    //   document.getElementById('student').innerHTML = 'Student Name (Tap to change): <br>' + " " + studentFirstName + " " + studentLastName;
+    // }
+
+    // switch between steps
+    var position = 0;
+    function moveForward() {
+      var sliderContainer = document.getElementById('sliderContainer');
+      if (position == 1750) {
+        return;
+      } else {
+        position = position + 350;
+        sliderContainer.style.left = "-"+ position + "px";
+      }
+    }
+
+    function moveBack() {
+      var sliderContainer = document.getElementById('sliderContainer');
+      if (position == 0) {
+        return;
+      } else {
+        position = position - 350;
+        sliderContainer.style.left = "-" + position + "px";
+      }
+    }
+    </script>
+</body>
+</html>

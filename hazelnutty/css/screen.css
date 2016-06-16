@@ -1,0 +1,214 @@
+/* 
+Style sheet for screened devices
+
+    Created on : Mar 4, 2015, 10:42:33 AM
+    Author     : Matthew
+*/
+
+@import "normalize.min.css";
+
+/*******Entire html document*******/
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #AA8439;
+}
+body>div{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    background-color: #FFE3AA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #403075;
+}
+
+/*******Header*******/
+header{
+    background-color: #FFE3AA;
+}
+header img{
+   min-width: 60%;
+   max-width: 100%;
+   padding-top: 1%;
+}
+header h1{
+   display: none;
+}
+
+/*******Navigation*******/
+nav{
+    background-color: #887CAF;
+    width: 100%;
+    margin-bottom: 2%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+nav a{
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav a:hover{
+    background-color: #13073A;
+    color: #FFFFFF;
+}
+nav a:link{
+    color: #403075;
+}
+nav a:active{
+    color: #403075;
+}
+nav a:visited{
+    color: #403075;
+}
+nav a.tooLong{
+    margin-left: -10px;
+}
+
+/*******Main*******/
+main>div{
+   margin: 10px 10px 30px 10px;
+}
+main img{
+    min-width: 60%;
+    max-width: 100%;
+    
+}
+main video{
+    min-width: 60%;
+    max-width: 100%;
+}
+main h1{
+    font-size: 24px;
+}
+main h2{
+    font-size: 24px;
+}
+main h3, main h4{
+    font-size: 18px;
+}
+main p{
+    
+    width: 60%;
+    max-width: 100%;
+    line-height: 24px;
+}
+
+/*******Aside*******/
+aside{
+    margin-top: 10%;
+    margin-left: 10px;
+    width: 60%;
+}
+aside a{
+    text-decoration: underline;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+aside a:hover{
+    text-decoration: none;
+}
+aside a:link{
+    color: #403075;
+}
+aside a:active{
+    color: #403075;
+}
+
+/*******Footer*******/
+footer{
+    margin-top: 10%;
+    text-align: center;
+}
+footer>div{
+    background-color: #887CAF;
+}
+footer a{
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a:link{
+    color: #403075;
+}
+footer a:active{
+    color: #403075;
+}
+
+/*******Responsive*******/
+@media screen and (max-width: 1024px){
+    body>div{
+        width: 100%;
+        height: 100%;
+    }
+    p{
+        font-size: 16px;
+    }
+    a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 480px){
+    body>div{
+        width: 100%;
+        height: 100%;
+    }
+    nav{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    nav>div{
+        width: 100%;
+    }
+    nav ul{
+        margin-left: -30px;
+    }
+    nav li{
+        margin: 0;
+        flex: 1;
+    }
+    nav a{
+        font-size: 5vw;
+        padding: 0;
+    }
+    nav a:hover{
+        background-color: #887CAF;
+    }
+    nav a.tooLong{
+        margin-left: -25px;
+    }
+    main img{
+        margin: 0;
+    }
+    main p{
+        width: 100%;
+        font-size: 16px;
+    }
+    footer{
+        font-size: 2vw;
+        margin-bottom: 10em;
+    }
+}
+@media screen and (min-width: 1700px){
+    body>div{
+        font-size: 1.5vw;
+    }
+}

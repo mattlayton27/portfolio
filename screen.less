@@ -1,0 +1,241 @@
+/***** Variables *****/
+@color: #55D692;
+@border: 2px solid #F3F3F3;
+@console_width: 80%;
+@mobile_width: 90%;
+
+/***** Entire Document *****/
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 90%;
+  height: 100%;
+  line-height: 28px;
+  font-family: "sofia-pro", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/***** Navigation *****/
+#header, #console_navigation {
+  display: inline-block;
+  margin-top: -10px;
+}
+#header {
+  margin-left: 20px;
+}
+#header h1 {
+  font-weight: 100;
+}
+#console_navigation {
+  position: absolute;
+  right: 0;
+}
+#console_navigation ul {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  margin-top: 24px;
+}
+#console_navigation li {
+  color: @color;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#console_navigation li:hover {
+  border-bottom: 1px solid @color;
+}
+#hamburger_menu {
+  display: none;
+}
+
+#mobile_navigation {
+  display: none;
+  background-color: @color;
+  color: white;
+  font-size: 26px;
+  margin-left: -2px;
+  width: 108%;
+  margin-top: -25px;
+  line-height: 65px;
+}
+#mobile_navigation ul {
+  list-style-type: none;
+}
+#mobile_navigation li {
+  margin-left: -40px;
+  border-bottom: 1px solid white;
+}
+.space {
+  margin-left: 25px;
+}
+nav li {
+  cursor: pointer;
+}
+
+/***** Work *****/
+main {
+  position: absolute;
+  border-top: @border;
+  width: 100%;
+  margin-left: -8px;
+}
+h2 {
+  font-size: 46px;
+  font-weight: 100;
+  font-family: monospace;
+  color: @color;
+}
+p {
+  font-size: 16px;
+}
+#work {
+  width: @console_width;
+  margin: auto;
+  margin-top: 80px;
+}
+.work_divider {
+  border-top: @border;
+  padding-top: 30px;
+}
+#idamft {
+  font-size: 35px;
+}
+#snowboardpic {
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+#htmlpic {
+  width: 40px;
+}
+#csspic {
+  width: 29px;
+}
+#jquerypic {
+  width: 40px;
+  margin-left: 3px;
+}
+#phppic {
+  width: 65px;
+  margin-left: -3px;
+}
+#mysqlpic {
+  width: 70px;
+}
+#wordpresspic {
+  width: 40px;
+}
+#javascriptpic {
+  width: 42px;
+}
+#javapic {
+  width: 55px;
+  margin-left: -5px;
+  margin-bottom: -2px;
+}
+.sitepics {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+/***** About Me *****/
+#about_me {
+  width: @console_width;
+  margin: auto;
+  border-top: @border;
+  margin-bottom: 150px;
+}
+#about_me img {
+  width: 315px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+/***** GitHub *****/
+#github {
+  width: @console_width;
+  margin: auto;
+  border-top: @border;
+  margin-bottom: 150px;
+}
+#github img {
+  float: right;
+  width: 250px;
+  margin-left: 20px;
+}
+
+/***** Contact *****/
+#contact {
+  width: @console_width;
+  margin: auto;
+  border-top: @border;
+  margin-bottom: 200px;
+}
+#captcha, #action {
+  margin-left: -9px;
+}
+
+
+/***** Tablet Sized *****/
+@media screen and (max-width: 700px){
+  #console_navigation ul{
+    display: none;
+  }
+  #hamburger_menu {
+    display: inline;
+    position: absolute;
+    width: 30px;
+    right: 20px;
+    top: 20px;
+  }
+  h2 {
+    line-height: 45px;
+  }
+  input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  #idamft {
+    font-size: 30px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #header {
+    margin-left: 10px;
+  }
+  #work {
+    width: @mobile_width;
+    margin: auto;
+    margin-top: 90px;
+  }
+  #work h2 {
+    margin-top: -50px;
+  }
+  #about_me {
+    width: @mobile_width;
+  }
+  #about_me img {
+    width: 100%;
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+  #github {
+    width: @mobile_width;
+  }
+  #github img {
+    float: right;
+    width: 35%;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  #contact {
+    width: @mobile_width;
+  }
+}

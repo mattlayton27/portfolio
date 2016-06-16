@@ -1,0 +1,1 @@
+<img src ="/rainier/media/images/rainier_logo.png" alt = "Rainier Logo" title="Rainier Adventures"><h1>Rainier Adventures</h1>
