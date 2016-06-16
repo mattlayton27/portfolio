@@ -2,18 +2,18 @@
 <html>
     <head>
         <title>Edit Equipment | rainieradventures.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/rainier/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/rainier/modules/head.php'; ?>
     </head>
     <body>
         <div>
             <header>
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/rainier/modules/header.php'; ?>
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rainier/modules/header.php'; ?>
                 </div>
             </header>
             <nav>
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/rainier/modules/navigation.php'; ?>
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rainier/modules/navigation.php'; ?>
                 </div>
             </nav>
             <main>
@@ -26,11 +26,11 @@
                         <input type="hidden" name="action" value="edit_equipment">
 
                         <input type="hidden" name="equipment_id" value="<?php echo $equipment_id; ?>">
-                        
+
                         <label>Activity:</label>
                         <select name="activity_id" id="activity">
                             <?php foreach ($activities as $activity) : ?>
-                                <option value="<?php echo $activity['activityID']; ?>" 
+                                <option value="<?php echo $activity['activityID']; ?>"
                                     <?php if ($activity_id == $activity['activityID']){echo 'selected'; } ?>>
                                     <?php echo $activity['activityName']; ?>
                                 </option>
@@ -42,7 +42,7 @@
 
                         <label>Daily Price:</label>
                         <input type="text" name="daily_price" value="<?php echo $daily_price; ?>" id="price" required><br>
-                        
+
                         <label>Available:</label>
                         <select name="equipment_available" id="available">
                             <option value="Yes" <?php if (isset($equipment_available) && $equipment_available == 'Yes'){
@@ -66,11 +66,10 @@
             </aside>
             <footer>
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/rainier/modules/footer.php'; ?><br>
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rainier/modules/footer.php'; ?><br>
                     <?php echo 'Last updated: ' . date('F d, Y', getlastmod()) ?>
                 </div>
             </footer>
         </div>
     </body>
 </html>
-

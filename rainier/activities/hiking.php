@@ -2,23 +2,23 @@
 <html>
     <head>
         <title>Hiking | rainieradventures.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/head.php'; ?>
     </head>
     <body>
         <div>
         <header>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/header.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/header.php'; ?>
             </div>
         </header>
         <nav>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/navigation.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/navigation.php'; ?>
             </div>
         </nav>
         <main>
             <div>
-                <img src="/public/rainier/media/images/rainier_hiking_opt.jpg" alt="Rainier Hiking" title="Hiking Mount Rainier">
+                <img src="/rainier/media/images/rainier_hiking_opt.jpg" alt="Rainier Hiking" title="Hiking Mount Rainier">
                 <h2>Hiking</h2>
                 <p>During the summer we have the most breathtaking views on our hiking activities. Our hikes vary from
                 a small hike in the park, to a hike to the very top of the mountain.</p>
@@ -58,16 +58,15 @@
         <aside>
             <div>
                 <h3>Hiking Guide:</h3>
-                <a href="/public/rainier/guides/hiking_guide.php" title="Hiking Guide Jake Rammell">Jake Rammell</a>
+                <a href="/rainier/guides/hiking_guide.php" title="Hiking Guide Jake Rammell">Jake Rammell</a>
             </div>
         </aside>
         <footer>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/footer.php'; ?><br>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/footer.php'; ?><br>
                 <?php echo 'Last updated: ' . date('F d, Y',  getlastmod()) ?>
             </div>
         </footer>
        </div>
     </body>
 </html>
-

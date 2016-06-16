@@ -2,18 +2,18 @@
 <html>
     <head>
         <title>Site Plan | rainieradventures.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/head.php'; ?>
     </head>
     <body>
         <div>
         <header>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/header.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/header.php'; ?>
             </div>
         </header>
         <nav>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/navigation.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/navigation.php'; ?>
             </div>
         </nav>
         <main>
@@ -27,10 +27,10 @@
                         <p>In my website, any between the ages of 18 and 99 will be able to use the resources listed on this website. If the ages are between 0 and 17, those individuals will need to be accompanied by an adult to experience these adventures.  The people using my website can be anyone with a smartphone, tablet, computer, and even dial up internet. The audience will not have a specific education range because anyone can find help from it. </p>
                     <h3>Site Persona's</h3>
                         <h4>Katie Tooley</h4>
-                        <img class="plan" src="/public/rainier/media/images/rainier_katie_opt.jpg" alt="Student with husband" title="Katie">
+                        <img class="plan" src="/rainier/media/images/rainier_katie_opt.jpg" alt="Student with husband" title="Katie">
                             <p>Responsibilities: Sophomore in college.<br>Age: 20<br>Education: High School Diploma<br>Ethnicity: White.<br>Status: Married<br>Goals: Adrenaline junkie. Loves to experience new, heart pumping adventures.<br>Environment: College student at BYU-Idaho where everyone is on a phone/computer.<br>“There is no such thing as too dangerous and too adventurous for me. Bring it on!”</p>
                         <h4>Craig Layton</h4>
-                        <img class="plan" src="/public/rainier/media/images/rainier_craig_opt.jpg" alt="Skywest Pilot" title="Craig">
+                        <img class="plan" src="/rainier/media/images/rainier_craig_opt.jpg" alt="Skywest Pilot" title="Craig">
                             <p>Responsibilities: Pilot for Skywest Airlines and a father of 4.<br>Age: 47.<br>Education: Bachelor’s Degree.<br>Ethnicity: White.<br>Status: Married with 4 kids.<br>Goals: Loves to travel and experience new things and wants to explore Mount Rainier.<br>Environment: Utah, three story house, access to internet through phone, tablet and computer.<br>Quote: “My job requires me to travel a lot. I will be flying close to Mount Rainier and would love to see what that place has to offer.”</p>
                     <h3>Site Scenario's</h3>
                         <ol>
@@ -129,9 +129,9 @@
                             </li>
                         </ul>
                     <h3>Site Map</h3>
-                    <img class="plan" src="/public/rainier/media/images/rainier_site_map_opt.png" alt="Site Map" title="rainieradventures.com Site Map">
+                    <img class="plan" src="/rainier/media/images/rainier_site_map_opt.png" alt="Site Map" title="rainieradventures.com Site Map">
                     <h3>Site Color Scheme</h3>
-                    <img class="plan" src="/public/rainier/media/images/rainier_color_scheme_opt.png" alt="Site Color Scheme" title="rainieradventures.com Color Scheme">
+                    <img class="plan" src="/rainier/media/images/rainier_color_scheme_opt.png" alt="Site Color Scheme" title="rainieradventures.com Color Scheme">
                     <h3>Typography</h3>
                         <table>
                             <thead>
@@ -157,26 +157,24 @@
                         </table>
                     <h3>Navigation</h3>
                         <p>The goal of the navigation for my website for Mount Rainier is to make it simple and easy to navigate through each page.</p>
-                        <img class="plan" src="/public/rainier/media/images/rainier_navigation_opt.png" alt="Site Navigation" title="rainieradventures.com Navigation">
+                        <img class="plan" src="/rainier/media/images/rainier_navigation_opt.png" alt="Site Navigation" title="rainieradventures.com Navigation">
                     <h3>Responsive Sketches</h3>
-                        <img class="plan" src="/public/rainier/media/images/ranier_browsersketch_opt.jpg" alt="Web Responsive Sketches" title="rainieradventures.com Web Responsive Sketch">
-                        <img class="plan" src="/public/rainier/media/images/ranier_tabletsketch_opt.jpg" alt="Tablet Responsive Sketches" title="rainieradventures.com Tablet Responsive Sketch">
-                        <img class="plan" src="/public/rainier/media/images/ranier_phonesketch_opt.jpg" alt="Smartphone Responsive Sketches" title="rainieradventures.com Phone Responsive Sketch">
+                        <img class="plan" src="/rainier/media/images/ranier_browsersketch_opt.jpg" alt="Web Responsive Sketches" title="rainieradventures.com Web Responsive Sketch">
+                        <img class="plan" src="/rainier/media/images/ranier_tabletsketch_opt.jpg" alt="Tablet Responsive Sketches" title="rainieradventures.com Tablet Responsive Sketch">
+                        <img class="plan" src="/rainier/media/images/ranier_phonesketch_opt.jpg" alt="Smartphone Responsive Sketches" title="rainieradventures.com Phone Responsive Sketch">
             </div>
         </main>
         <aside>
             <div>
-                
+
             </div>
         </aside>
         <footer>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/footer.php'; ?><br>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/footer.php'; ?><br>
                 <?php echo 'Last updated: ' . date('F d, Y',  getlastmod()) ?>
             </div>
         </footer>
        </div>
     </body>
 </html>
-
-

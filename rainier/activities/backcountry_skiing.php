@@ -2,23 +2,23 @@
 <html>
     <head>
         <title>Backcountry Skiing | rainieradventures.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/head.php'; ?>
     </head>
     <body>
         <div>
         <header>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/header.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/header.php'; ?>
             </div>
         </header>
         <nav>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/navigation.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/navigation.php'; ?>
             </div>
         </nav>
         <main>
             <div>
-                <img src="/public/rainier/media/images/rainier_backcountry_skiing_opt.jpg" alt="Rainier Skiing" title="Rainier Backcountry Skiing">
+                <img src="/rainier/media/images/rainier_backcountry_skiing_opt.jpg" alt="Rainier Skiing" title="Rainier Backcountry Skiing">
                 <h2>Backcountry Skiing/Snowboarding</h2>
                 <p>When backcountry skiing or snowboarding Mount Rainier, you will experience beauty at the tip
                 of the mountain, and will experience adrenaline like you have never felt before.</p>
@@ -56,18 +56,15 @@
         <aside>
             <div>
                 <h3>Backcountry Skiing/Snowboarding Guide:</h3>
-                <a href="/public/rainier/guides/backcountry_skiing_guide.php" title="Ski Guide Matt Layton">Matt Layton</a>
+                <a href="/rainier/guides/backcountry_skiing_guide.php" title="Ski Guide Matt Layton">Matt Layton</a>
             </div>
         </aside>
         <footer>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/footer.php'; ?><br>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/footer.php'; ?><br>
                 <?php echo 'Last updated: ' . date('F d, Y',  getlastmod()) ?>
             </div>
         </footer>
        </div>
     </body>
 </html>
-
-
-

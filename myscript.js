@@ -37,7 +37,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#mobileaboutnav").click(function(){
-      $("body").animate({scrollTop:6000}, 1000);
+      $("body").animate({scrollTop:5900}, 1000);
       $("#mobile_navigation").toggle();
   });
 });

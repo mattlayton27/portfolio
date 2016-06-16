@@ -2,18 +2,18 @@
 <html>
     <head>
         <title>Add Equipment | rainieradventures.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/rainier/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/rainier/modules/head.php'; ?>
     </head>
     <body>
         <div>
             <header>
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/rainier/modules/header.php'; ?>
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rainier/modules/header.php'; ?>
                 </div>
             </header>
             <nav>
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/rainier/modules/navigation.php'; ?>
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rainier/modules/navigation.php'; ?>
                 </div>
             </nav>
             <main>
@@ -35,11 +35,11 @@
                         </select><br>
 
                         <label>Name:</label>
-                        <input type="text" name="equipment_name" id="equipment_name" 
+                        <input type="text" name="equipment_name" id="equipment_name"
                                value="<?php if(isset($equipment_name)){echo $equipment_name;}?>" required><br>
 
                         <label>Daily Price:</label>
-                        <input type="text" name="daily_price" id="price" 
+                        <input type="text" name="daily_price" id="price"
                                value="<?php if(isset($daily_price)){echo $daily_price;}?>" required><br>
 
                         <label>Available:</label>
@@ -65,11 +65,10 @@
             </aside>
             <footer>
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/public/rainier/modules/footer.php'; ?><br>
+                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rainier/modules/footer.php'; ?><br>
                     <?php echo 'Last updated: ' . date('F d, Y', getlastmod()) ?>
                 </div>
             </footer>
         </div>
     </body>
 </html>
-

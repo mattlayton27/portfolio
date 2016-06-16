@@ -2,23 +2,23 @@
 <html>
     <head>
         <title>Mountain Biking | rainieradventures.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/head.php'; ?>
     </head>
     <body>
         <div>
         <header>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/header.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/header.php'; ?>
             </div>
         </header>
         <nav>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/navigation.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/navigation.php'; ?>
             </div>
         </nav>
         <main>
             <div>
-                <img src="/public/rainier/media/images/rainier_mountainbiking_opt.jpg" alt="Mountain Biking" title="Rainier Mountain Biking">
+                <img src="/rainier/media/images/rainier_mountainbiking_opt.jpg" alt="Mountain Biking" title="Rainier Mountain Biking">
                 <h2>Mountain Biking</h2>
                 <p>If you want some exercise, your adrenaline pumping, or just want to feel the breeze in your hair
                 while rushing down the mountain on your mountain bike, Mount Rainier is just the place for that!</p>
@@ -55,16 +55,15 @@
         <aside>
             <div>
                 <h3>Mountain Biking Guide:</h3>
-                <a href="/public/rainier/guides/mountain_biking_guide.php" title="Mountain Biking Guide Ryan Layton">Ryan Layton</a>
+                <a href="/rainier/guides/mountain_biking_guide.php" title="Mountain Biking Guide Ryan Layton">Ryan Layton</a>
             </div>
         </aside>
         <footer>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/rainier/modules/footer.php'; ?><br>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/footer.php'; ?><br>
                 <?php echo 'Last updated: ' . date('F d, Y',  getlastmod()) ?>
             </div>
         </footer>
        </div>
     </body>
 </html>
-
