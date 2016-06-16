@@ -12,7 +12,7 @@
 <body>
   <nav>
     <div id="header">
-      <h1>Portfolio | Matt Layton</h1>
+      <h1 id="scrollHome">Portfolio | Matt Layton</h1>
     </div>
     <div id="console_navigation">
       <ul>
@@ -38,7 +38,7 @@
       <p><b>Description: </b>I have been working for The Edge Landscaping for almost ten years now. I love the work, it has taught
       amazing life lessons throughout the years, and it gets me out of the house. Every day we are assigned whose lawns to take
       care of, along with special instructions such as trimming flowers or watch to avoid a specific sprinkler while mowing the
-      lawn. I though that instead of having to write down those instructions daily on a piece of paper, I could create a website
+      lawn. I thought that instead of having to write down those instructions daily on a piece of paper, I could create a website
       that allows you to view, create, delete or edit customers, the address in case we get lost, the day we do it, and special weekly
       instructions. Now the website I am showing you is only the prototype and does not have real information of our customers so I
       will give you the username and password so that you can see how the employees work with the database. The purpose of this
