@@ -1,1 +1,1 @@
-<a href="/public/portfolio/hazelnutty/siteplan.pdf" title="Read the site plan">Site Plan</a>
+<a href="/hazelnutty/siteplan.pdf" title="Read the site plan">Site Plan</a>

@@ -1,1 +1,1 @@
-<img id="logo" src ="/public/portfolio/hazelnutty/media/images/hazelnutty_logo.png" alt = "Hazelnutty.com Logo" title="hazelnutty.com Logo"><h1>Hazelnutty</h1>
+<img id="logo" src ="/hazelnutty/media/images/hazelnutty_logo.png" alt = "Hazelnutty.com Logo" title="hazelnutty.com Logo"><h1>Hazelnutty</h1>

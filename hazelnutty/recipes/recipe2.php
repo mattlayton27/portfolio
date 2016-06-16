@@ -2,27 +2,27 @@
 <html>
     <head>
         <title>"4 Ingredients" Nutella Brownies Video Step Through | hazelnutty.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/hazelnutty/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/hazelnutty/modules/head.php'; ?>
     </head>
     <body>
         <div>
             <header role="banner">
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/hazelnutty/modules/header.php'; ?>
+                    <?php include $_SERVER['DOCUMENT_ROOT']. '/hazelnutty/modules/header.php'; ?>
                 </div>
             </header>
             <nav role="navigation">
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/hazelnutty/modules/navigation.php'; ?>
+                    <?php include $_SERVER['DOCUMENT_ROOT']. '/hazelnutty/modules/navigation.php'; ?>
                 </div>
             </nav>
             <main role="main">
                 <div>
                     <h2>"4 Ingredients" Nutella Brownies Video Step Through</h2>
                     <video width="320" height="240" controls>
-                        <source src="/public/portfolio/hazelnutty/media/videofile/video-stepthrough.mp4" type="video/mp4">
-                        <source src="/public/portfolio/hazelnutty/media/videofile/video-stepthrough.oggtheora.ogv" type="video/ogv">
-                        <source src="/public/portfolio/hazelnutty/media/videofile/video-stepthrough.webmsd.webm" type="video/webm">
+                        <source src="/hazelnutty/media/videofile/video-stepthrough.mp4" type="video/mp4">
+                        <source src="/hazelnutty/media/videofile/video-stepthrough.oggtheora.ogv" type="video/ogv">
+                        <source src="/hazelnutty/media/videofile/video-stepthrough.webmsd.webm" type="video/webm">
                     </video>
                     <h3>Ingredients:</h3>
                     <ul>
@@ -49,12 +49,12 @@
             <aside role="complementary">
                 <div>
                     <h4>Audio Step Through:</h4>
-                    <a href="/public/portfolio/hazelnutty/recipes/recipe1.php" title="Nutella Banana Cookies">Nutella Banana Cookies</a>
+                    <a href="/hazelnutty/recipes/recipe1.php" title="Nutella Banana Cookies">Nutella Banana Cookies</a>
                 </div>
             </aside>
             <footer role="contentinfo">
                 <div>
-                    <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/hazelnutty/modules/footer.php'; ?><br>
+                    <?php include $_SERVER['DOCUMENT_ROOT']. '/hazelnutty/modules/footer.php'; ?><br>
                     <?php echo 'Last updated: ' . date('F d, Y',  getlastmod()) ?>
                 </div>
             </footer>

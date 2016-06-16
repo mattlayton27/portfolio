@@ -2,18 +2,18 @@
 <html>
     <head>
         <title>Home | hazelnutty.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/hazelnutty/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/hazelnutty/modules/head.php'; ?>
     </head>
     <body>
         <div>
         <header role="banner">
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/hazelnutty/modules/header.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/hazelnutty/modules/header.php'; ?>
             </div>
         </header>
         <nav role="navigation">
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/hazelnutty/modules/navigation.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/hazelnutty/modules/navigation.php'; ?>
             </div>
         </nav>
         <main role="main">
@@ -29,7 +29,7 @@
         </aside>
         <footer role="contentinfo">
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/hazelnutty/modules/footer.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/hazelnutty/modules/footer.php'; ?>
                 <?php echo 'Last updated: ' . date('F d, Y',  getlastmod()) ?>
             </div>
         </footer>
