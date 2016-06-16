@@ -35,7 +35,7 @@ $finalmessage .= "Subject: $subject \n";
 $finalmessage .= "Message: \n $message";
 
 // Send the message
-$to = 'mattlayton27@gmail.com';
+$to = 'lay14006@byui.edu';
 $from = "From: $email";
 $result = mail($to, $subject, $finalmessage, $from);
 
