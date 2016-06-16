@@ -2,23 +2,23 @@
 <html>
     <head>
         <title>Home | rainieradventures.com</title>
-        <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/rainier/modules/head.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/head.php'; ?>
     </head>
     <body>
         <div>
         <header>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/rainier/modules/header.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/header.php'; ?>
             </div>
         </header>
         <nav>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/rainier/modules/navigation.php'; ?>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/navigation.php'; ?>
             </div>
         </nav>
         <main>
             <div>
-                <img src="/public/portfolio/rainier/media/images/rainier_home_opt.jpg" alt="Image of Mount Rainier" title="Mount Rainier">
+                <img src="/rainier/media/images/rainier_home_opt.jpg" alt="Image of Mount Rainier" title="Mount Rainier">
                 <h2>Welcome to Mount Rainier!</h2>
                 <p>Mount Rainier has the highest peak in the Cascade mountains, the highest mountain in Washington
                    and also in the Pacific Northwest. It is stands at 14,411 ft tall and is also a large active
@@ -37,7 +37,7 @@
         </aside>
         <footer>
             <div>
-                <?php include $_SERVER['DOCUMENT_ROOT']. '/public/portfolio/rainier/modules/footer.php'; ?><br>
+                <?php include $_SERVER['DOCUMENT_ROOT']. '/rainier/modules/footer.php'; ?><br>
                 <?php echo 'Last updated: ' . date('F d, Y',  getlastmod()) ?>
             </div>
         </footer>

@@ -13,17 +13,17 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#aboutnav").click(function(){
-      $("body").animate({scrollTop:6000}, 1000);
+      $("body").animate({scrollTop:5900}, 1000);
   });
 });
 $(document).ready(function(){
   $("#gitnav").click(function(){
-      $("body").animate({scrollTop:6600}, 1000);
+      $("body").animate({scrollTop:6500}, 1000);
   });
 });
 $(document).ready(function(){
   $("#contactnav").click(function(){
-      $("body").animate({scrollTop:7150}, 1000);
+      $("body").animate({scrollTop:7050}, 1000);
   });
 });
 
@@ -37,19 +37,19 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#mobileaboutnav").click(function(){
-      $("body").animate({scrollTop:5800}, 1000);
+      $("body").animate({scrollTop:6000}, 1000);
       $("#mobile_navigation").toggle();
   });
 });
 $(document).ready(function(){
   $("#mobilegitnav").click(function(){
-      $("body").animate({scrollTop:7100}, 1000);
+      $("body").animate({scrollTop:7300}, 1000);
       $("#mobile_navigation").toggle();
   });
 });
 $(document).ready(function(){
   $("#mobilecontactnav").click(function(){
-      $("body").animate({scrollTop:7850}, 1000);
+      $("body").animate({scrollTop:8000}, 1000);
       $("#mobile_navigation").toggle();
   });
 });
