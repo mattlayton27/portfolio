@@ -131,7 +131,7 @@
       programming and realized that this is what I want to be doing for the rest of my life. Over the next 2 years I have been
       taking classes in Object Oriented Programming, Web Front End / Back End Development, Database Design and Development,
       and much more. These classes have taught me how to use different tools to create websites such as HTML5, CSS3, LESS, JavaScript,
-      jQuery, JSON, AJAX, PHP, MySQL, Java, JSP's, Java Servlets, and the list keeps growing. Other tools that I am familiar with are
+      jQuery, JSON, AJAX, PHP, MySQL, Java, JSP's, Java Servlets, JDBC, RESTful API's, JPA and the list keeps growing. Other tools that I am familiar with are
       Google Adwords, Google Analytics, and Adobe Photoshop/Illustrator/InDesign. With the rise of mobile devices, making each
       website fully responsive also has been my top priority. I created this website to show people the work that I have done in Web
       Development using the tools I listed, and hope to add more as the years go by.</p>
