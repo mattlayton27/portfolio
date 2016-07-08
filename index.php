@@ -43,8 +43,8 @@
         and logging on to add or delete a review. I have got to say that this has been my favorite project so far.
         Hope you enjoy it!</p>
       <img id="htmlpic" src="media/HTML5.png" alt="Image: HTML5" title="HTML5">
-      <img id="csspic" src="media/CSS3.png" alt="Image: CSS3" title="CSS3">
-      <img id="javascriptpic" src="media/javascript.png" alt="Image: JavaScript" title="JavaScript">
+      <img id="lesspic" src="media/less.png" alt="Image: LESS" title="LESS">
+      <img id="jquerypic" src="media/jquery.png" alt="Image: jQuery" title="jQuery">
       <img id="javapic" src="media/java.png" alt="Image: Java" title="Java">
       <img id="mysqlpic" src="media/mysql.png" alt="Image: MySQL" title="MySQL">
       <p id="url"><b>URL: </b><a target="_blank" href="http://java-mlayton.rhcloud.com/GroupMovieReviewWebsite/index.jsp">Latest Movie Reviews</a></p>
