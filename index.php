@@ -34,6 +34,21 @@
   </nav>
   <main>
     <div id="work">
+      <h2 class="work_divider" id="moviereviews">Latest Movie Reviews</h2>
+      <img id="moviepic" class="sitepics" src="media/movies.png" alt="Image: Latest Movie Reviews Website" title="Movie Reviews Website">
+      <p><b>Description: </b>I built this website using Java (JSP, Java Servlets, JDBC, JPA) and experimented using
+        RESTful API's. I decided to build a movie review site because not only am I passionate for Web Development,
+        I am passionate for movies too! Building this website also gave me the chance to work as a team and use
+        the full potential of GitHub. This website will give you the options of viewing reviews, registering as a reviewer,
+        and logging on to add or delete a review. I have got to say that this has been my favorite project so far.
+        Hope you enjoy it!</p>
+      <img id="htmlpic" src="media/HTML5.png" alt="Image: HTML5" title="HTML5">
+      <img id="csspic" src="media/CSS3.png" alt="Image: CSS3" title="CSS3">
+      <img id="javascriptpic" src="media/javascript.png" alt="Image: JavaScript" title="JavaScript">
+      <img id="javapic" src="media/java.png" alt="Image: Java" title="Java">
+      <img id="mysqlpic" src="media/mysql.png" alt="Image: MySQL" title="MySQL">
+      <p id="url"><b>URL: </b><a target="_blank" href="http://java-mlayton.rhcloud.com/GroupMovieReviewWebsite/index.jsp">Latest Movie Reviews</a></p>
+
       <h2>The Edge Landscaping</h2>
       <img id="edgepic" class="sitepics" src="media/edge.png" alt="Image: Edge Website" title="The Edge Landscaping">
       <p><b>Description: </b>I have been working for The Edge Landscaping for almost ten years now. I love the work, it has taught
@@ -105,17 +120,6 @@
       <img id="htmlpic" src="media/HTML5.png" alt="Image: HTML5" title="HTML5">
       <img id="csspic" src="media/CSS3.png" alt="Image: CSS3" title="CSS3">
       <p id="url"><b>URL: </b><a target="_blank" href="hazelnutty/index.php">www.hazelnutty.com</a></p>
-
-
-      <h2 class="work_divider" id="moviereviews">Latest Movie Reviews</h2>
-      <img id="moviepic" class="sitepics" src="" alt="Image: Latest Movie Reviews Website" title="Movie Reviews Website">
-      <p><b>Description: </b>This will be my first web application using Java (JSP, Java Servlets).</p>
-      <img id="htmlpic" src="media/HTML5.png" alt="Image: HTML5" title="HTML5">
-      <img id="csspic" src="media/CSS3.png" alt="Image: CSS3" title="CSS3">
-      <img id="javascriptpic" src="media/javascript.png" alt="Image: JavaScript" title="JavaScript">
-      <img id="javapic" src="media/java.png" alt="Image: Java" title="Java">
-      <img id="mysqlpic" src="media/mysql.png" alt="Image: MySQL" title="MySQL">
-      <p id="url"><b>URL: </b><a target="_blank" href=""><i>Coming soon...</i></a></p>
     </div>
     <div id="about_me">
       <h2>About Me</h2>
@@ -138,9 +142,12 @@
       <p><b>What is GitHub? </b>GitHub can be thought of as a serious social networking site for software developers. Members can
       follow each other, rate each other's work, receive updates for specific projects and communicate publicly or privately.
       GitHub uploads and can share code that was used to create a website or application. Here you can view mine:</p>
-      <p><b>Portfolio URL: </b><a target="_blank" href="https://github.com/mattlayton27/portfolio">https://github.com/mattlayton27/portfolio</a></p>
-      <p><b>The Edge Landscaping URL: </b><a target="_blank" href="https://github.com/mattlayton27/cs313-php/tree/master/assignments/edge">https://github.com/mattlayton27/cs313-php/tree/master/assignments/edge</a></p>
-      <p><b>Movie Reviews URL: </b><a target="_blank" href=""><i>Coming soon...</i></a></p>
+      <p><a target="_blank" href="https://github.com/mattlayton27/portfolio">Portfolio</a></p>
+      <p><a target="_blank" href="https://github.com/mattlayton27/cs313-java/tree/master/java%20code%20%28click%20to%20view%20assignments%29/GroupMovieReviewWebsite">Latest Movie Reviews</a></p>
+      <p><a target="_blank" href="https://github.com/mattlayton27/cs313-php/tree/master/assignments/edge">The Edge Landscaping</a></p>
+      <p><a target="_blank" href="https://github.com/mattlayton27/portfolio/tree/master/rainier">Rainier Adventures</a></p>
+      <p><a target="_blank" href="https://github.com/mattlayton27/portfolio/tree/master/snowboard">Snowboard Instruction Helper</a></p>
+      <p><a target="_blank" href="https://github.com/mattlayton27/portfolio/tree/master/hazelnutty">Hazelnutty</a></p>
     </div>
     <div id="contact">
       <h2>Contact Me</h2><br>
