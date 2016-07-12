@@ -16,7 +16,7 @@
     </div>
     <div id="console_navigation">
       <ul>
-        <li id="worknav">Work</li>
+        <li id="worknav">Project History</li>
         <li id="aboutnav">About Me</li>
         <li id="gitnav">GitHub</li>
         <li id="contactnav">Contact</li>
@@ -25,7 +25,7 @@
     <img src="media/hamburger_menu.png" alt="Hamburger Menu" title="Menu" id="hamburger_menu">
     <div id="mobile_navigation">
       <ul>
-        <li id="mobileworknav"><div class="space">Work</div></li>
+        <li id="mobileworknav"><div class="space">Project History</div></li>
         <li id="mobileaboutnav"><div class="space">About Me</div></li>
         <li id="mobilegitnav"><div class="space">GitHub</div></li>
         <li id="mobilecontactnav"><div class="space">Contact</div></li>
@@ -34,10 +34,11 @@
   </nav>
   <main>
     <div id="work">
-      <h2 class="work_divider" id="moviereviews">Latest Movie Reviews</h2>
+      <h2>Project History</h2>
       <img id="moviepic" class="sitepics" src="media/movies.png" alt="Image: Latest Movie Reviews Website" title="Movie Reviews Website">
-      <p><b>Description: </b>I built this website using Java (JSP, Java Servlets, JDBC, JPA) and experimented using
-        RESTful API's. I decided to build a movie review site because not only am I passionate for Web Development,
+      <h3>Latest Movie Reviews</h3>
+      <p><b>Description: </b>I built this website using Java (JSP, Java Servlets, JDBC) and experimented using
+        RESTful API's and Object Relational Mapping. I decided to build a movie review site because not only am I passionate for Web Development,
         I am passionate for movies too! Building this website also gave me the chance to work as a team and use
         the full potential of GitHub. This website will give you the options of viewing reviews, registering as a reviewer,
         and logging on to add or delete a review. I have got to say that this has been my favorite project so far.
@@ -49,8 +50,8 @@
       <img id="mysqlpic" src="media/mysql.png" alt="Image: MySQL" title="MySQL">
       <p id="url"><b>URL: </b><a target="_blank" href="http://java-mlayton.rhcloud.com/GroupMovieReviewWebsite/index.jsp">Latest Movie Reviews</a></p>
 
-      <h2>The Edge Landscaping</h2>
       <img id="edgepic" class="sitepics" src="media/edge.png" alt="Image: Edge Website" title="The Edge Landscaping">
+      <h3>The Edge Landscaping</h3>
       <p><b>Description: </b>I have been working for The Edge Landscaping for almost ten years now. I love the work, it has taught
       amazing life lessons throughout the years, and it gets me out of the house. Every day we are assigned whose lawns to take
       care of, along with special instructions such as trimming flowers or watch to avoid a specific sprinkler while mowing the
@@ -68,8 +69,8 @@
       <img id="mysqlpic" src="media/mysql.png" alt="Image: MySQL" title="MySQL">
       <p id="url"><b>URL: </b><a target="_blank" href="http://php-mlayton.rhcloud.com/assignments/edge/index.php">The Edge Landscaping</a></p>
 
-      <h2 class="work_divider" id="idamft">Idaho Association for Marriage and Family Therapists</h2>
       <img id="idamftpic" class="sitepics" src="media/idamft.png" alt="Image: IDAMFT" title="Idaho Association for Marriage and Family Therapists (IDAMFT)">
+      <h3>Idaho Association for Marriage and Family Therapists</h3>
       <p><b>Description: </b>During my second to last semester of college, a professor asked me and a fellow classmate of mine if
       we would like to volunteer our time to create a website for the Idaho Association for Marriage and Family Therapists (IDAMFT).
       The goal of the website was to create a portal for not only therapists to communicate and create blogs, but for those searching
@@ -83,8 +84,8 @@
       <img id="javascriptpic" src="media/javascript.png" alt="Image: JavaScript" title="JavaScript">
       <p id="url"><b>URL: </b><a target="_blank" href="http://www.idamft.com/">http://www.idamft.com/</a></p>
 
-      <h2 class="work_divider" id="rainier">Rainier Adventures</h2>
       <img id="rainierpic" class="sitepics" src="media/rainier.png" alt="Image: Rainier Website" title="Rainier Adventures">
+      <h3>Rainier Adventures</h3>
       <p><b>Description: </b>In my Web Back End Development class, we were tasked to create a website in two weeks that not only
       looked good, but that could handle CRUD database functions. I decided to create a website that allows you to see rental
       equipment available for an adventure on Mount Rainier. This would allow you to not only view the equipment, but check the price
@@ -96,8 +97,8 @@
       <img id="mysqlpic" src="media/mysql.png" alt="Image: MySQL" title="MySQL">
       <p id="url"><b>URL: </b><a target="_blank" href="rainier/index.php">Rainier Adventures</a></p>
 
-      <h2 class="work_divider" id="snowboard">Snowboard Instruction Helper</h2>
       <img id="snowboardpic" src="media/snowboard.png" alt="Image: Snowboard Instructor Helper Website" title="Snowboard Instructor Helper">
+      <h3>Snowboard Instruction Helper</h3>
       <p><b>Description: </b>In my Mobile Applications class we focused on using strict JavaScript. No frameworks at all. For
       our final project we were tasked to create an application that will help out in either our jobs or in our daily life. I
       work as a Snowboard Instructor at Snowbasin Ski Resort and have been there for 4 seasons. I decided to create an app
@@ -111,8 +112,8 @@
       <img id="javascriptpic" src="media/javascript.png" alt="Image: JavaScript" title="JavaScript"><br>
       <p id="url"><b>URL: </b><a target="_blank" href="snowboard/index.html">Snowboard Instruction Helper</a></p>
 
-      <h2 class="work_divider" id="hazelnutty">Hazelnutty</h2>
       <img id="hazelnuttypic" class="sitepics" src="media/hazelnutty.png" alt="Image: Hazelnutty Website" title="Hazelnutty">
+      <h3>Hazelnutty</h3>
       <p><b>Description: </b>This is the very first website that I have ever built. I created it because I love nutella with a passion
       and wanted a place for fellow nutella lovers to learn more about it, and learn about different recipes that would include
       nutella. This website is also mobile responsive and also includes a site plan in the footer. If you are a nutella lover,

@@ -45,7 +45,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#mobileworknav").click(function(){
     $("body").animate({
-      scrollTop: $("#work").offset().top - 65
+      scrollTop: $("#work").offset().top - 90
     });
     $("#mobile_navigation").toggle();
   });
